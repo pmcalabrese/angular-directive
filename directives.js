@@ -1,4 +1,4 @@
-angular.module('car.directives', []).
+angular.module('app.directives', []).
 // HTML svgLoadingspin
 // <svg fill="white" height="25px" width="25px" viewBox="0 0 38 38">
 //	<svg-loadingspin></svg-loadingspin>
