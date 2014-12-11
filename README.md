@@ -22,5 +22,15 @@ Dircetive that show an arch spinning in SVG
 
 <!-- Start src/filters.js -->
 
+## Documantation for filters
+### asteriskFilter
+Filters that hides a text and replace it with *
+
+### dotterFilter
+Filters that replace the exeding characters after a certein length with "..."
+
+### trustAsHtml
+Filters that return trust html
+
 <!-- End src/filters.js -->
 

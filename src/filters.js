@@ -1,4 +1,10 @@
 angular.module('app.filters', []).
+/**
+ * ## Documantation for filters
+ * ### asteriskFilter
+ * Filters that hides a text and replace it with *
+ *
+ */
 filter('asteriskFilter',[function() {
 	return function(input) {
 		if (!input) return;
@@ -9,6 +15,11 @@ filter('asteriskFilter',[function() {
 		return r;
 	};
 }]).
+/**
+ * ### dotterFilter
+ * Filters that replace the exeding characters after a certein length with "..."
+ *
+ */
 filter('dotterFilter',[function() {
 	return function(input,length) {
 		var l = parseInt(length,10);
@@ -22,6 +33,11 @@ filter('dotterFilter',[function() {
 		return r;
 	};
 }]).
+/**
+ * ### trustAsHtml
+ * Filters that return trust html
+ *
+ */
 filter('trustAsHtml', ['$sce', function($sce){
 	return function(text) {
 		if (angular.isDefined(text) && text !== "") {
