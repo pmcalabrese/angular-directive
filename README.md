@@ -10,11 +10,9 @@ A collection of interesting directives filters and services for Angular
 Dircetive that show an arch spinning in SVG
 
 #### Example:
-	```html
 	<svg fill="white" height="25px" width="25px" viewBox="0 0 38 38">
 		<svg-loadingspin></svg-loadingspin>
 	</svg>
-	```
 
 <!-- End src/directives.js -->
 
