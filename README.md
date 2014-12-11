@@ -5,8 +5,9 @@ A collection of interesting directives filters and services for Angular
 
 <!-- Start src/directives.js -->
 
-## svgLoadingspin
-### Dircetive that show and arch spinning in SVG
+## Documantation for directives
+### svgLoadingspin
+Dircetive that show an arch spinning in SVG
 
 #### Example:
 

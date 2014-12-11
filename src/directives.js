@@ -1,7 +1,8 @@
 angular.module('app.directives', []).
 /**
- * ## svgLoadingspin
- * ### Dircetive that show and arch spinning in SVG
+ * ## Documantation for directives
+ * ### svgLoadingspin
+ * Dircetive that show an arch spinning in SVG
  *
  * #### Example:
  *
