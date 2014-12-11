@@ -1,9 +1,9 @@
 angular.module('app.directives', []).
 /**
- * #svgLoadingspin
- * ##Dircetive that show and arch spinning in SVG
+ * ## svgLoadingspin
+ * ### Dircetive that show and arch spinning in SVG
  *
- * ### Examples:
+ * #### Example:
  *
  *	<svg fill="white" height="25px" width="25px" viewBox="0 0 38 38">
  *		<svg-loadingspin></svg-loadingspin>

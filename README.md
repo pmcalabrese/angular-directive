@@ -1,12 +1,14 @@
-README intro
+# Angular Stuff
+A collection of interesting directives filters and services for Angular
+
 
 
 <!-- Start src/directives.js -->
 
-#svgLoadingspin
-##Dircetive that show and arch spinning in SVG
+## svgLoadingspin
+### Dircetive that show and arch spinning in SVG
 
-### Examples:
+#### Example:
 
 	<svg fill="white" height="25px" width="25px" viewBox="0 0 38 38">
 		<svg-loadingspin></svg-loadingspin>
